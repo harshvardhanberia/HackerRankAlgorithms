@@ -8,21 +8,6 @@
 
 char* readline();
 
-/*
- * Complete the timeConversion function below.
- */
-
-/*
- * Please either make the string static or allocate on the heap. For example,
- * static char str[] = "hello world";
- * return str;
- *
- * OR
- *
- * char* str = "hello world";
- * return str;
- *
- */
 char* timeConversion(char* s) {
     int len=strlen(s);
     int x;
